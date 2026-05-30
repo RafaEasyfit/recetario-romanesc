@@ -1,0 +1,17 @@
+{
+  "name": "Rețetar Sănătos Românesc",
+  "short_name": "Rețetar",
+  "description": "492 rețete sănătoase românești: tradiționale, internaționale, de post, sărbători și rapide.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#1e3d3a",
+  "theme_color": "#1e3d3a",
+  "lang": "ro",
+  "icons": [
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-maskable.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#1e3d3a">
+<title>Rețetar Sănătos</title>
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="apple-touch-icon" href="icons/icon-192.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="Rețetar">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<!-- LISTA -->
+<header id="topbar">
+  <div class="topbar-inner">
+    <h1 class="brand">🍃 Rețetar Sănătos</h1>
+    <div class="search-wrap">
+      <span class="search-ico">🔍</span>
+      <input id="search" type="search" inputmode="search" autocomplete="off"
+             placeholder="Caută rețete sau ingrediente…">
+      <button id="clearSearch" class="clear-btn" aria-label="Șterge">✕</button>
+    </div>
+    <div id="chips" class="chips"></div>
+  </div>
+</header>
+
+<main id="list" class="grid"></main>
+<p id="empty" class="empty" hidden>Nicio rețetă găsită 😕</p>
+<footer class="foot"><span id="count"></span> · Rețetar Sănătos Românesc</footer>
+
+<!-- DETALIU -->
+<section id="detail" class="detail" hidden>
+  <button id="back" class="back-btn">‹ Înapoi</button>
+  <button id="fav" class="fav-btn" aria-label="Favorit">☆</button>
+  <div class="detail-hero" id="detailHero"></div>
+  <div class="detail-body">
+    <span id="detailCat" class="cat-tag"></span>
+    <h2 id="detailName"></h2>
+    <div id="detailBadges" class="badges"></div>
+    <div id="detailNutri" class="nutri"></div>
+    <p id="detailDesc" class="desc"></p>
+    <h3 class="sec">🛒 Ingrediente</h3>
+    <ul id="detailIng" class="ing-list"></ul>
+    <h3 class="sec">👩‍🍳 Mod de Preparare</h3>
+    <ol id="detailPasi" class="pasi-list"></ol>
+  </div>
+</section>
+
+<script src="app.js"></script>
+</body>
+</html>
