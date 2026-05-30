@@ -36,6 +36,7 @@ h1,h2,h3{margin:0}
 }
 .topbar-inner{max-width:1100px;margin:0 auto;padding:14px 16px 10px}
 .brand{color:#fff;font-size:20px;font-weight:800;letter-spacing:.2px;margin-bottom:12px}
+.brand-sub{color:var(--lime);font-weight:600;font-size:16px}
 .search-wrap{position:relative;display:flex;align-items:center}
 .search-ico{position:absolute;left:14px;font-size:15px;opacity:.6}
 #search{

@@ -1,5 +1,5 @@
 // Service Worker — Rețetar Sănătos
-const CACHE = 'retetar-v1';
+const CACHE = 'retetar-v2';
 const SHELL = [
   './', './index.html', './styles.css', './app.js',
   './recipes.json', './manifest.webmanifest',
