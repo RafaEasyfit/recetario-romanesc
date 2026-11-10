@@ -2,3 +2,7 @@ node_modules/
 .DS_Store
 Thumbs.db
 REPORTE_*.txt
+
+# Python: compilados que se regeneran solos
+__pycache__/
+*.pyc
